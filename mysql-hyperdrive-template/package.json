@@ -25,7 +25,7 @@
     "@cloudflare/vitest-pool-workers": "0.8.44",
     "typescript": "5.8.3",
     "vitest": "3.2.4",
-    "wrangler": "4.21.x"
+    "wrangler": "3.114.x"
   },
   "private": true,
   "scripts": {
