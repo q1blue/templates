@@ -65,8 +65,8 @@ importers:
         specifier: 2.8.1
         version: 2.8.1
       hono:
-        specifier: 4.8.2
-        version: 4.8.2
+        specifier: 4.12.7
+        version: 4.12.7
       zod:
         specifier: 3.25.67
         version: 3.25.67
@@ -121,8 +121,8 @@ importers:
         specifier: ^0.0.19
         version: 0.0.19
       hono:
-        specifier: 4.8.2
-        version: 4.8.2
+        specifier: 4.12.7
+        version: 4.12.7
     devDependencies:
       typescript:
         specifier: 5.8.3
@@ -331,7 +331,7 @@ importers:
     dependencies:
       '@openauthjs/openauth':
         specifier: 0.4.3
-        version: 0.4.3(arctic@2.3.4)(hono@4.8.2)
+        version: 0.4.3(arctic@2.3.4)(hono@4.12.7)
       valibot:
         specifier: ^1.0.0-beta.9
         version: 1.1.0(typescript@5.8.3)
@@ -442,8 +442,8 @@ importers:
         specifier: 16.2.0
         version: 16.2.0
       hono:
-        specifier: 4.8.2
-        version: 4.8.2
+        specifier: 4.12.7
+        version: 4.12.7
       postcss:
         specifier: 8.5.3
         version: 8.5.3
@@ -460,8 +460,8 @@ importers:
   react-router-hono-fullstack-template:
     dependencies:
       hono:
-        specifier: 4.8.2
-        version: 4.8.2
+        specifier: 4.12.7
+        version: 4.12.7
       isbot:
         specifier: 5.1.26
         version: 5.1.26
@@ -555,8 +555,8 @@ importers:
         specifier: 10.4.21
         version: 10.4.21(postcss@8.5.6)
       hono:
-        specifier: 4.8.2
-        version: 4.8.2
+        specifier: 4.12.7
+        version: 4.12.7
       postgres:
         specifier: 3.4.5
         version: 3.4.5
@@ -856,8 +856,8 @@ importers:
   vite-react-template:
     dependencies:
       hono:
-        specifier: 4.8.2
-        version: 4.8.2
+        specifier: 4.12.7
+        version: 4.12.7
       react:
         specifier: 19.0.0
         version: 19.0.0
@@ -5701,16 +5701,19 @@ packages:
 
   glob@10.4.5:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@11.0.2:
     resolution: {integrity: sha512-YT7U7Vye+t5fZ/QMkBFrTJ7ZQxInIUjwyAjVj84CYXqgBdv30MFUPGnBR6sQaVq6Is15wYJUsnzTuWaGRBhBAQ==}
     engines: {node: 20 || >=22}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@9.3.5:
     resolution: {integrity: sha512-e1LleDykUz2Iu+MTYdkSsuWX8lvAjAcs0Xef0lNIu0S2wOAzuTxCJtcd9S3cijlwYF18EsU3rzb8jPVobxDh9Q==}
     engines: {node: '>=16 || 14 >=14.17'}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   globals@11.12.0:
     resolution: {integrity: sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==}
@@ -5829,8 +5832,8 @@ packages:
   hastscript@9.0.1:
     resolution: {integrity: sha512-g7df9rMFX/SPi34tyGCyUBREQoKkapwdY/T04Qn9TDWfHhAYt4/I0gMVirzK5wEzeUqIjEB+LXC/ypb7Aqno5w==}
 
-  hono@4.8.2:
-    resolution: {integrity: sha512-hM+1RIn9PK1I6SiTNS6/y7O1mvg88awYLFEuEtoiMtRyT3SD2iu9pSFgbBXT3b1Ua4IwzvSTLvwO0SEhDxCi4w==}
+  hono@4.12.7:
+    resolution: {integrity: sha512-jq9l1DM0zVIvsm3lv9Nw9nlJnMNPOcAtsbsgiUhWcFzPE99Gvo6yRTlszSLLYacMeQ6quHD6hMfId8crVHvexw==}
     engines: {node: '>=16.9.0'}
 
   hosted-git-info@6.1.3:
@@ -6905,6 +6908,7 @@ packages:
   next@15.3.3:
     resolution: {integrity: sha512-JqNj29hHNmCLtNvd090SyRbXJiivQ+58XjCcrC50Crb5g5u2zi7Y2YivbsEfzk6AtVI80akdOQbaMZwWB1Hthw==}
     engines: {node: ^18.18.0 || ^19.8.0 || >= 20.0.0}
+    deprecated: This version has a security vulnerability. Please upgrade to a patched version. See https://nextjs.org/blog/CVE-2025-66478 for more details.
     hasBin: true
     peerDependencies:
       '@opentelemetry/api': ^1.1.0
@@ -6929,6 +6933,7 @@ packages:
   node-domexception@1.0.0:
     resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==}
     engines: {node: '>=10.5.0'}
+    deprecated: Use your platform's native DOMException instead
 
   node-fetch-native@1.6.6:
     resolution: {integrity: sha512-8Mc2HhqPdlIfedsuZoc3yioPuzp6b+L5jRCRY1QzuWZh2EGJVQrGppC6V6cF0bLdbW0+O2YpqCA25aF/1lvipQ==}
@@ -7766,6 +7771,7 @@ packages:
 
   rollup-plugin-inject@3.0.2:
     resolution: {integrity: sha512-ptg9PQwzs3orn4jkgXJ74bfs5vYz1NCZlSQMBUA0wKcGp5i5pA1AO3fOUEte8enhGUC+iapTCzEWw2jEFFUO/w==}
+    deprecated: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-inject.
 
   rollup-plugin-node-polyfills@0.2.1:
     resolution: {integrity: sha512-4kCrKPTJ6sK4/gLL/U5QzVT8cxJcofO0OU74tnB19F40cmuAKSzH5/siithxlofFEjwvw1YAhPmbvGNA6jEroA==}
@@ -7919,6 +7925,7 @@ packages:
   sitemap@8.0.0:
     resolution: {integrity: sha512-+AbdxhM9kJsHtruUF39bwS/B0Fytw6Fr1o4ZAIAEqA6cke2xcoO2GleBw9Zw7nRzILVEgz7zBM5GiTJjie1G9A==}
     engines: {node: '>=14.0.0', npm: '>=6.0.0'}
+    deprecated: 'SECURITY: Multiple vulnerabilities fixed in 8.0.1 (XML injection, path traversal, command injection, protocol injection). Upgrade immediately: npm install sitemap@8.0.1'
     hasBin: true
 
   slash@5.1.0:
@@ -7949,6 +7956,7 @@ packages:
 
   sourcemap-codec@1.4.8:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
+    deprecated: Please use @jridgewell/sourcemap-codec instead
 
   space-separated-tokens@2.0.2:
     resolution: {integrity: sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==}
@@ -8172,6 +8180,7 @@ packages:
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   terser@5.16.9:
     resolution: {integrity: sha512-HPa/FdTB9XGI2H1/keLFZHxl6WNvAI4YalHGtDQTlMnJcoqSab1UwL4l1hGEhs6/GmLHBZIg/YgB++jcbzoOEg==}
@@ -11058,9 +11067,9 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@hono/cloudflare-access@0.2.0(hono@4.8.2)':
+  '@hono/cloudflare-access@0.2.0(hono@4.12.7)':
     dependencies:
-      hono: 4.8.2
+      hono: 4.12.7
 
   '@hookform/resolvers@5.1.1(react-hook-form@7.58.1(react@19.0.0))':
     dependencies:
@@ -11442,12 +11451,12 @@ snapshots:
     dependencies:
       which: 3.0.1
 
-  '@openauthjs/openauth@0.4.3(arctic@2.3.4)(hono@4.8.2)':
+  '@openauthjs/openauth@0.4.3(arctic@2.3.4)(hono@4.12.7)':
     dependencies:
       '@standard-schema/spec': 1.0.0-beta.3
       arctic: 2.3.4
       aws4fetch: 1.0.20
-      hono: 4.8.2
+      hono: 4.12.7
       jose: 5.9.6
 
   '@opennextjs/aws@3.6.5':
@@ -15282,7 +15291,7 @@ snapshots:
       property-information: 7.1.0
       space-separated-tokens: 2.0.2
 
-  hono@4.8.2: {}
+  hono@4.12.7: {}
 
   hosted-git-info@6.1.3:
     dependencies:
@@ -17324,9 +17333,9 @@ snapshots:
 
   r2-explorer@1.1.5:
     dependencies:
-      '@hono/cloudflare-access': 0.2.0(hono@4.8.2)
+      '@hono/cloudflare-access': 0.2.0(hono@4.12.7)
       chanfana: 2.8.1
-      hono: 4.8.2
+      hono: 4.12.7
       postal-mime: 2.4.3
       zod: 3.25.67
 
